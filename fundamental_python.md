@@ -12,8 +12,9 @@ print('增加了 %.3f %%'%k)
 #如果有真实的%，可以用了两个占位符进行转转译
 print('这个月增加了 %s%% 的销售额。'%(30.56))
 
-# 任何python代码文件，最好都加上：  #!/usr/bin/env python3
-                                # -*- coding: utf-8 -*-
+# 任何python代码文件，最好都加上:
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 
 #input()返回的是一个字符串，如果要进行if判断，要你int转化.
 x=int(input())
